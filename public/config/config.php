@@ -7,3 +7,7 @@ $config['date_format'] = '%Y-%m-%d';            // Set the PHP date format as de
 $config['timezone'] = 'UTC';                 // Timezone may be required by your php install
 
 $config['theme'] = 'well-formed';                // Set the theme (defaults to "default")
+
+// Custom settings.
+
+$config['site_tagline'] = 'Good web development in London';

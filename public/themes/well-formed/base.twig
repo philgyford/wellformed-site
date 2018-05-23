@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-gb">
 <head>
   <meta charset="utf-8">
@@ -18,27 +18,52 @@
 </head>
 <body>
 
-  <header>
-      <h1><a href="{{ "index"|link }}">{{ site_title }}</a></h1>
-      <nav>
-        <ul>
-          {% for page in pages if page.title %}
-            <li{% if page.id == current_page.id %} class="active"{% endif %}>
+  <header class="container banner grid grid--1-1">
+    <div class="sitehead">
+      <h1 class="sitehead__title">
+        {% if current_page.id == 'index' %}
+          {{ site_title }}
+        {% else %}
+          <a href="{{ "index"|link }}">{{ site_title }}</a>
+        {% endif %}
+      </h1>
+      <p class="sitehead__tagline">{{ config.site_tagline }}</p>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__inner">
+        {% for page in pages if page.title %}
+          <li class="nav__item">
+            {% if page.id == current_page.id %}
+              {{ page.title }}
+            {% else %}
               <a href="{{ page.url }}">{{ page.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
   </header>
 
-    <section id="content">
-      <div class="inner">
-        {{ content }}
-      </div>
-    </section>
+  <main class="container">
+    {% block content %}
+      <header class="pagehead">
+        <h1 class="pagehead__title">{{ current_page.title }}</h1>
+      </header>
+      {{ content }}
+    {% endblock content %}
+  </main>
 
-    <footer>
-    </footer>
+  <footer class="container footer grid grid--1-1">
+    <p>
+      Well-Formed Limited.<br>
+      Registered in England and Wales.<br>
+      Company number: 09140877.
+    </p>
+    <p>
+      Email: <a href="mailto:contact@well-formed.co.uk">contact@well-formed.co.uk</a>
+    </p>
+  </footer>
 
 </body>
 </html>
