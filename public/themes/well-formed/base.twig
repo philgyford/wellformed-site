@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>{% block head_title %}{% if meta.title %}{{ meta.title }} - {% endif %}{{ site_title }}{% endblock %}</title>
+
+  {% if meta.description %}
+    <meta name="description" content="{{ meta.description|striptags }}">
+  {% endif %}
+  {% if meta.robots %}
+    <meta name="robots" content="{{ meta.robots }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ theme_url }}/css/global.css" type="text/css" />
+</head>
+<body>
+
+  <header>
+      <h1><a href="{{ "index"|link }}">{{ site_title }}</a></h1>
+      <nav>
+        <ul>
+          {% for page in pages if page.title %}
+            <li{% if page.id == current_page.id %} class="active"{% endif %}>
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+  </header>
+
+    <section id="content">
+      <div class="inner">
+        {{ content }}
+      </div>
+    </section>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
