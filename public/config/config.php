@@ -11,3 +11,11 @@ $config['theme'] = 'well-formed';                // Set the theme (defaults to "
 // Custom settings.
 
 $config['site_tagline'] = 'Good web development in London';
+
+// For the navigation.
+// 'title' should match the 'title' in the page's YAML header.
+$config['nav_pages'] = array(
+    array('title' => 'Home', 'url' => '/'),
+    array('title' => 'Projects', 'url' => '/projects'),
+    array('title' => 'About', 'url' => '/about'),
+);

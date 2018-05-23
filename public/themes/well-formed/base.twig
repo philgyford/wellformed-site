@@ -30,11 +30,11 @@
       <p class="sitehead__tagline">{{ config.site_tagline }}</p>
     </div>
 
-    <nav class="nav">
+    <nav class="nav u-align-right">
       <ul class="nav__inner">
-        {% for page in pages if page.title %}
+        {% for page in config.nav_pages if page.title %}
           <li class="nav__item">
-            {% if page.id == current_page.id %}
+            {% if page.title == current_page.title %}
               {{ page.title }}
             {% else %}
               <a href="{{ page.url }}">{{ page.title }}</a>
@@ -60,7 +60,7 @@
       Registered in England and Wales.<br>
       Company number: 09140877.
     </p>
-    <p>
+    <p class="u-align-right">
       Email: <a href="mailto:contact@well-formed.co.uk">contact@well-formed.co.uk</a>
     </p>
   </footer>
