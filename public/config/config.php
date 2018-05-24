@@ -8,6 +8,8 @@ $config['timezone'] = 'UTC';                 // Timezone may be required by your
 
 $config['theme'] = 'well-formed';                // Set the theme (defaults to "default")
 
+$config['WFFunctions.enabled'] = true;
+
 // Custom settings.
 
 $config['site_tagline'] = 'Good web development in London';
