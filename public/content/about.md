@@ -4,6 +4,10 @@ Description: About Well-Formed
 Template: text
 ---
 
-<p>Well-Formed was founded by <a href="https://www.gyford.com/">Phil Gyford</a>, who has been designing and building things on the internet since the mid-1990s. He has worked for clients including Google, the BBC, Channel 4, and the <cite>Guardian</cite>. He has held positions at <cite>Wired</cite> magazine, BERG, and Capital Radio.</p>
+Well-Formed was founded by [Phil Gyford](https://www.gyford.com/"), who has been designing and building things on the internet since the mid-1990s. He has previously held positions at <cite>Wired</cite> magazine, BERG, and Capital Radio.
 
-<p>Feel free to get in touch at <a href="mailto:contact@well-formed.co.uk">contact@well-formed.co.uk</a></p>
+* [Twitter](http://twitter.com/philgyford)
+* [LinkedIn](http://www.linkedin.com/profile/view?id=3842233)
+* [GitHub](http://github.com/philgyford)
+
+Feel free to get in touch at  [contact@well-formed.co.uk](mailto:contact@well-formed.co.uk)
