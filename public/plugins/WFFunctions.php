@@ -17,7 +17,12 @@ final class WFFunctions extends AbstractPicoPlugin
      * Generate an image tag with different srcset images.
      *
      * Use *within HTML tags* like:
+     *
      *   %wf_product_img("file-name", "My alt text")%
+     *
+     * or, with optional extra class(es):
+     *
+     *   %wf_product_img("file-name", "My alt text", "img--bordered")%
      *
      * This would use images titled 'file-name-xs.png' and 'file-name-sm.png'
      * within 'assets/img/projects/'.
@@ -37,15 +42,19 @@ final class WFFunctions extends AbstractPicoPlugin
             %                   # Start tag
             wf_product_img      # Tag name
             \(                  # Start parentheses
-            "(.*?)"             # Find image name argument
-            ,\s+?               # Argument separator
-            "(.*?)"             # Find alt text in quotes
+                "(.*?)"             # Find image name argument
+                ,\s+?               # Argument separator
+                "(.*?)"             # Find alt text in quotes
+                (?:                 # Start optional argument
+                    ,\s+?               # Argument separator
+                    "(.*?)"             # Find style in quotes
+                )?                  # End optional argument
             \)                  # End parentheses
             %                   # End tag
         /x';
 
         $tag = <<<EOT
-<img class="img--fluid img--bordered"
+<img class="img--fluid $3"
     src="/assets/img/projects/$1-xs.png"
     srcset="assets/img/projects/$1-xs.png 230w,
             assets/img/projects/$1-sm.png 520w"

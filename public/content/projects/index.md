@@ -16,7 +16,7 @@ Some of my most interesting projects from recent years:
     </div>
     <p>
         <a href="http://spelunker.moma.org/">
-            %wf_product_img("moma-exhibitions", "Screenshot of MoMA Exhibition Spelunker")%
+            %wf_product_img("moma-exhibitions", "Screenshot of MoMA Exhibition Spelunker", "img--bordered")%
         </a>
     </p>
 </section>
@@ -50,7 +50,7 @@ Some of my most interesting projects from recent years:
     </div>
     <p>
         <a href="https://guardian.gyford.com/">
-            %wf_product_img("guardian", "Screenshot of Today's Guardian")%
+            %wf_product_img("guardian", "Screenshot of Today's Guardian", "img--bordered")%
         </a>
     </p>
 </section>
