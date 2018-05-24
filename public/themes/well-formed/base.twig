@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>{% block head_title %}{% if meta.title %}{{ meta.title }} - {% endif %}{{ site_title }}{% endblock %}</title>
+  <title>{% if current_page.title == 'Home' %}{{ site_title }}: {{ config.site_tagline }}{% else %}{% block head_title %}{% if meta.title %}{{ meta.title }} - {% endif %}{{ site_title }}{% endblock %}{% endif %}</title>
 
   {% if meta.description %}
     <meta name="description" content="{{ meta.description|striptags }}">

@@ -1,0 +1,15 @@
+{% extends 'base.twig' %}
+
+{# When the content is a block of text. Put it in a narrower column. #}
+
+{% block content %}
+  <div class="container__inner">
+    {% if current_page.title != 'Home' %}
+      <header class="pagehead">
+        <h1 class="pagehead__title">{{ current_page.title }}</h1>
+      </header>
+    {% endif %}
+    
+    {{ content }}
+  </div> <!-- .container__inner -->
+{% endblock content %}
