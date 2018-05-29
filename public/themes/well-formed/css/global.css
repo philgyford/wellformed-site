@@ -2,6 +2,14 @@
  * A lot of basic stuff from Bootstrap's Reboot Stylesheet.
  */
 
+/**
+ * COLORS:
+ *
+ * Yellow: #faed3e
+ * Black:  #000
+ * Blue:   #03a1c6   But too light for text, so: #0081a0
+ * Grey:   #d0d0d0
+ */
 /**********************************************************************
  * BASICS
  */
@@ -172,14 +180,14 @@ sup { top: -.5em; }
 
 
 a {
-  color: #03a1c6;
+  color: #0081a0;
   text-decoration: none;
   background-color: transparent; /* Remove the gray background on active links in IE 10. */
   -webkit-text-decoration-skip: objects; /* Remove gaps in links underline in iOS 8+ and Safari 8+. */
 }
 a:hover,
 a:visited {
-  color: #03a1c6;
+  color: #0081a0;
 }
 a:hover {
   text-decoration: underline;
