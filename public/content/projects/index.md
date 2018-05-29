@@ -3,7 +3,7 @@ Title: Projects
 Description: Projects by Well-Formed
 ---
 
-Some of my favourite projects from recent years:
+Some of our favourite projects from recent years:
 
 <hr>
 
