@@ -399,10 +399,6 @@ progress {
   margin: 0 auto;
 }
 
-.container__inner {
-  max-width: 38rem;
-}
-
 .footer {
   margin-top: 3rem;
   border-top: 5px solid #faed3e;
@@ -412,13 +408,18 @@ progress {
 
 .grid {
   margin-bottom: 1rem;
+  display: grid;
 }
 
-@media (min-width: 560px) {
-
-  .grid {
+@media (min-width: 300px) {
+  .grid--6 {
     display: grid;
+    -ms-grid-columns: 24% 24% 24%;
+    grid-template-columns: 24% 24% 24%;
+    grid-gap: 2rem 14%  ;
   }
+}
+@media (min-width: 560px) {
   .grid--1-1 {
     -ms-grid-columns: 47% 47%;
     grid-template-columns: 47% 47%;
@@ -429,6 +430,15 @@ progress {
     grid-template-columns: 64% 32%;
     grid-gap: 4%;
   }
+  .grid--6 {
+    -ms-grid-columns: 11.5% 11.5% 11.5% 11.5% 11.5% 11.5%;
+    grid-template-columns: 11.5% 11.5% 11.5% 11.5% 11.5% 11.5%;
+    grid-gap: 2rem 6%  ;
+  }
+}
+.grid--logos {
+  text-align: center;
+  align-items: center;
 }
 
 /**********************************************************************
@@ -482,6 +492,10 @@ progress {
   font-size: 1.5rem;
 }
 
+.bodytext {
+  max-width: 37rem;
+}
+
 .img--bordered {
   border: 1px solid #d0d0d0;
 }
@@ -497,6 +511,10 @@ progress {
   }
 }
 
+.list--unstyled {
+  padding-left: 0;
+  list-style-type: none;
+}
 
 /**********************************************************************
  * UTILITY.

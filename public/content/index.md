@@ -14,10 +14,11 @@ Well-Formed makes interesting websites, which often fall into these two broad&nb
 
 Of course, if you have an unusual and worthwhile project that doesn't fit these descriptions, do still [get&nbsp;in&nbsp;touch](mailto:contact@well-formed.co.uk).
 
-
 <!--
 <div style="display:inline-block;width:100px;height:100px;background:#faed3e"></div>
 <div style="display:inline-block;width:100px;height:100px;background:#000"></div>
 <div style="display:inline-block;width:100px;height:100px;background:#03a1c6"></div>
-<div style="display:inline-block;width:100px;height:100px;background:#d0d0d0"></div>
+<div style="display:inline-block;width:100px;height:100px;background:#949494"></div>
 -->
+
+We have previously worked on projects for companies such as…

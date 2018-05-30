@@ -3,7 +3,7 @@ Title: Projects
 Description: Projects by Well-Formed
 ---
 
-Some of our favourite projects from recent years:
+Some projects we’ve worked on for clients aren’t shareable in public, but here are some of our other favourites from recent years:
 
 <hr>
 
@@ -12,7 +12,7 @@ Some of our favourite projects from recent years:
         <h3>
             <a href="http://spelunker.moma.org/">MoMA Exhibition Spelunker</a>
         </h3>
-        <p>Working with <a href="http://goodformandspectacle.com">Good, Form & Spectacle</a> (GF&S), I built a site that explores 60 years of data for New York’s Museum of Modern Art.</p>
+        <p>Working with <a href="http://goodformandspectacle.com">Good, Form & Spectacle</a> (GF&S), a site that explores 60 years of data for New York’s Museum of Modern Art.</p>
 
         <p>It combines MoMA’s data with more from Wikidata and the <cite>New York Times</cite>, and has several visualisations (using D3.js) providing overviews of the organisation and its work over the decades.</p>
     </div>
