@@ -406,6 +406,69 @@ progress {
   font-size: 80%;
 }
 
+/*****************************************/
+/* Styles for old browsers. */
+/* Emulating grid CSS */
+
+.grid {
+  display: block;
+}
+.grid::after {
+  /* Clearfix */
+  display: block;
+  clear: both;
+  content: "";
+}
+.grid > * {
+  display: block;
+  float: left;
+}
+@media (min-width: 300px) {
+  .grid--6 > * {
+    width: 18%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 560px) {
+  .grid--1-1 > * {
+    width: 47%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .grid--1-1 > *:first-child {
+    margin-left: 0;
+  }
+  .grid--1-1 > *:last-child {
+    margin-right: 0;
+  }
+
+  .grid--2-1 > *:first-child {
+    width: 64%;
+    margin-right: 4%;
+  }
+  .grid--2-1 > *:last-child {
+    width: 32%;
+  }
+
+  .grid--6 > * {
+    width: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2rem;
+  }
+}
+.grid--logos > * {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*****************************************/
+/* Styles for newer browsers. */
+
 .grid {
   margin-bottom: 1rem;
   display: grid;
@@ -475,8 +538,17 @@ progress {
   margin-right: 0;
 }
 
+/* For older, non-grid CSS browsers. */
+.sitehead {
+  float: none;
+}
 
 @media (min-width: 560px) {
+
+  /* For older, non-grid CSS browsers. */
+  .sitehead {
+    float: left;
+  }
 
   /* When nav is to right of title. */
   .nav {
