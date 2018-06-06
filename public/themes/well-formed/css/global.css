@@ -87,7 +87,8 @@ hr {
   margin-top: 1.5rem;
   border: 0;
   border-top: 5px solid #d0d0d0;
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /**********************************************************************
@@ -181,9 +182,11 @@ sup { top: -.5em; }
 
 a {
   color: #0081a0;
-  text-decoration: none;
+  text-decoration: underline;
   background-color: transparent; /* Remove the gray background on active links in IE 10. */
-  -webkit-text-decoration-skip: objects; /* Remove gaps in links underline in iOS 8+ and Safari 8+. */
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
 }
 a:hover,
 a:visited {
@@ -550,6 +553,15 @@ progress {
   margin-right: 0;
 }
 
+.sitehead a,
+.nav a {
+  text-decoration: none;
+}
+.sitehead a:hover,
+.nav a:hover {
+  text-decoration: underline;
+}
+
 /* For older, non-grid CSS browsers. */
 .sitehead {
   float: none;
@@ -598,6 +610,10 @@ progress {
 .list--unstyled {
   padding-left: 0;
   list-style-type: none;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 /**********************************************************************
