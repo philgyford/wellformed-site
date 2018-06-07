@@ -19,5 +19,6 @@ $config['site_tagline'] = 'Good web development in London';
 $config['nav_pages'] = array(
     array('title' => 'Home', 'url' => '/'),
     array('title' => 'Projects', 'url' => '/projects'),
+    array('title' => 'Articles', 'url' => '/articles'),
     array('title' => 'About', 'url' => '/about'),
 );
