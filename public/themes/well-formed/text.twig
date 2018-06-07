@@ -7,47 +7,8 @@
     {{ content }}
   </div> <!-- .bodytext -->
 
-  {% if current_page.title == 'Home' %}
-    <ul class="list--unstyled grid grid--6 grid--logos">
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/bbc.png" alt="BBC" width="200" height="58">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/google.png" alt="Google" width="200" height="67">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/channel-4.png" alt="Channel 4" width="200" height="277">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/guardian.png" alt="The Guardian" width="200" height="66">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/moma.png" alt="MoMA" width="200" height="51">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/british-museum.png" alt="The British Museum" width="200" height="66">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/water-aid.png" alt="42" width="200" height="Water Aid">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/citizens-advice.png" alt="Citizens Advice" width="200" height="213">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/unison.png" alt="UNISON" width="200" height="102">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/somerset-house.png" alt="Somerset House" width="200" height="201">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/nokia.png" alt="Nokia" width="200" height="34">
-      </li>
-      <li>
-          <img class="img--fluid" src="/assets/img/logos/film-4.png" alt="Film 4" width="200" height="200">
-      </li>
-    </ul>
-  {% endif %}
-
+  {% block content_end %}
+  {% endblock %}
 </div>
 
 {% endblock content %}

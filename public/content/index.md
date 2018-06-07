@@ -1,7 +1,7 @@
 ---
 Title: Home
 Description: Good web development in London
-Template: text
+Template: home
 ---
 
 Well-Formed makes interesting websites, which often fall into these two broad&nbsp;categories:
@@ -12,7 +12,9 @@ Well-Formed makes interesting websites, which often fall into these two broad&nb
 * **Building prototypes**  
   Whether you call it a prototype, an Alpha, R&D, or something else, we can help you get a first-version of your website or online service up and&nbsp;running.
 
-Of course, if you have an unusual and worthwhile project that doesn't fit these descriptions, do still [get&nbsp;in&nbsp;touch](mailto:contact@well-formed.co.uk).
+We like websites that are simple and fast, that are built around usability and data, and that do good things on and for the web.
+
+If you have an interesting project we could help with, [do&nbsp;get&nbsp;in&nbsp;touch](mailto:contact@well-formed.co.uk).
 
 <!--
 <div style="display:inline-block;width:100px;height:100px;background:#faed3e"></div>
@@ -20,5 +22,3 @@ Of course, if you have an unusual and worthwhile project that doesn't fit these 
 <div style="display:inline-block;width:100px;height:100px;background:#03a1c6"></div>
 <div style="display:inline-block;width:100px;height:100px;background:#949494"></div>
 -->
-
-We have previously worked on projects for companies such as…

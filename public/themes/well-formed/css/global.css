@@ -508,14 +508,17 @@ progress {
       grid-gap: 4%;
     }
     .grid--6 {
-      -ms-grid-columns: 11.5% 11.5% 11.5% 11.5% 11.5% 11.5%;
-      grid-template-columns: 11.5% 11.5% 11.5% 11.5% 11.5% 11.5%;
-      grid-gap: 2rem 6%  ;
+      -ms-grid-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+      grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+      grid-gap: 2rem 5%;
     }
   }
   .grid--logos {
     text-align: center;
     align-items: center;
+  }
+  .grid--logos > * {
+    min-height: auto;
   }
 }
 
@@ -612,8 +615,12 @@ progress {
   list-style-type: none;
 }
 
-p:last-child {
+.grid > * > p:last-child {
   margin-bottom: 0;
+}
+
+.company-logo {
+  opacity: 0.43;
 }
 
 /**********************************************************************
