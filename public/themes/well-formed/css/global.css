@@ -545,9 +545,6 @@ progress {
   margin-bottom: 2em;
   border-bottom: 5px solid #faed3e;
 }
-.nav {
-  margin-top: 0.5rem;
-}
 .nav__inner {
   display: inline-block;
   padding-left: 0;
