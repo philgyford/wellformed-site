@@ -434,7 +434,7 @@ progress {
     margin-bottom: 2rem;
   }
 }
-@media (min-width: 560px) {
+@media (min-width: 568px) {
   .grid--1-1 > * {
     width: 47%;
     margin-left: 3%;
@@ -480,6 +480,10 @@ progress {
     width: auto !important;
     margin-bottom: 0;
   }
+  .grid--1-1 > * {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
   /* Grid-only styles. */
 
@@ -496,7 +500,7 @@ progress {
       grid-gap: 2rem 14%  ;
     }
   }
-  @media (min-width: 560px) {
+  @media (min-width: 569px) {
     .grid--1-1 {
       -ms-grid-columns: 47% 47%;
       grid-template-columns: 47% 47%;
@@ -541,6 +545,9 @@ progress {
   margin-bottom: 2em;
   border-bottom: 5px solid #faed3e;
 }
+.nav {
+  margin-top: 0.5rem;
+}
 .nav__inner {
   display: inline-block;
   padding-left: 0;
@@ -550,7 +557,7 @@ progress {
   display: inline-block;
   list-style: none;
   font-weight: 600;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .nav__item:last-child {
   margin-right: 0;
@@ -570,7 +577,7 @@ progress {
   float: none;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 569px) {
 
   /* For older, non-grid CSS browsers. */
   .sitehead {
@@ -580,6 +587,10 @@ progress {
   /* When nav is to right of title. */
   .nav {
     margin-top: 3rem;
+  }
+
+  .nav__item {
+    margin-right: 20px;
   }
 }
 
@@ -604,7 +615,7 @@ progress {
   height: auto;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 569px) {
   .u-align-right {
     text-align: right;
   }
@@ -615,8 +626,10 @@ progress {
   list-style-type: none;
 }
 
-.grid > * > p:last-child {
-  margin-bottom: 0;
+@media (min-width: 569px) {
+  .grid > * > p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .company-logo {
