@@ -1,9 +1,10 @@
 ---
 Title: Articles
 Description: Articles written by Phil Gyford
+Template: text
 ---
 
-Phil Gyford writes blog posts about web development and design. Here are the most recent:
+Phil Gyford writes blog posts about web development and design on his personal website. Here are the most&nbsp;recent:
 
 * **[Invalidating items from Django’s cache](https://www.gyford.com/phil/writing/2018/05/15/invalidating-django-cache/)**  
 A look into how to invalidate pages from Django’s built-in per-site and per-view caching. <span class="u-nowrap">(15 May 2018)</span>
