@@ -79,7 +79,10 @@ class PicoXMLSitemap extends AbstractPicoPlugin
                 // CUSTOMISATION BY PHIL. 2018-06-02
                 // Make the URLs nicer.
                 $page['url'] = str_replace('?', '', $page['url']);
+                // They're like this on dev site:
                 $page['url'] = str_replace('/index', '', $page['url']);
+                // But like this on live site. I don't know:
+                $page['url'] = str_replace('%2Findex', '', $page['url']);
                 // END CUSTOMISATION BY PHIL.
 
 
