@@ -1,23 +1,27 @@
 [
     {
         "name": "erusev/parsedown",
-        "version": "1.6.3",
-        "version_normalized": "1.6.3.0",
+        "version": "1.7.1",
+        "version_normalized": "1.7.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/erusev/parsedown.git",
-            "reference": "728952b90a333b5c6f77f06ea9422b94b585878d"
+            "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/erusev/parsedown/zipball/728952b90a333b5c6f77f06ea9422b94b585878d",
-            "reference": "728952b90a333b5c6f77f06ea9422b94b585878d",
+            "url": "https://api.github.com/repos/erusev/parsedown/zipball/92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+            "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
             "shasum": ""
         },
         "require": {
+            "ext-mbstring": "*",
             "php": ">=5.3.0"
         },
-        "time": "2017-05-14T14:47:48+00:00",
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35"
+        },
+        "time": "2018-03-08T01:11:30+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -90,24 +94,318 @@
         ]
     },
     {
-        "name": "symfony/yaml",
-        "version": "v2.8.25",
-        "version_normalized": "2.8.25.0",
+        "name": "picocms/composer-installer",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/yaml.git",
-            "reference": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5"
+            "url": "https://github.com/picocms/composer-installer.git",
+            "reference": "67f53e73232c2c7a9b669e36c3fc716cf1f55b58"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
-            "reference": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
+            "url": "https://api.github.com/repos/picocms/composer-installer/zipball/67f53e73232c2c7a9b669e36c3fc716cf1f55b58",
+            "reference": "67f53e73232c2c7a9b669e36c3fc716cf1f55b58",
+            "shasum": ""
+        },
+        "time": "2017-10-13T20:16:18+00:00",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Pico\\Composer\\Installer\\PluginInstaller"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Pico\\Composer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "The Pico Community",
+                "homepage": "http://picocms.org/"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/picocms/composer-installer/graphs/contributors"
+            }
+        ],
+        "description": "A composer plugin responsible for installing plugins and themes for Pico, a stupidly simple, blazing fast, flat file CMS.",
+        "homepage": "http://picocms.org/",
+        "keywords": [
+            "composer",
+            "composer-installer",
+            "composer-plugin",
+            "pico",
+            "pico-cms",
+            "picocms",
+            "picocms-installer",
+            "picocms-plugin",
+            "picocms-theme"
+        ]
+    },
+    {
+        "name": "picocms/pico",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/picocms/Pico.git",
+            "reference": "ac36863fa74eb6e23fdfc13f5f475357fb269c44"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/picocms/Pico/zipball/ac36863fa74eb6e23fdfc13f5f475357fb269c44",
+            "reference": "ac36863fa74eb6e23fdfc13f5f475357fb269c44",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.9"
+            "erusev/parsedown": "^1.7",
+            "erusev/parsedown-extra": "^0.7",
+            "ext-dom": "*",
+            "php": ">=5.3.6",
+            "symfony/yaml": "^2.8",
+            "twig/twig": "^1.35"
         },
-        "time": "2017-06-01T20:52:29+00:00",
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "^2.8",
+            "squizlabs/php_codesniffer": "^2.4"
+        },
+        "suggest": {
+            "picocms/composer-installer": "This Composer plugin is responsible for installing Pico plugins and themes using the Composer package manager.",
+            "picocms/pico-deprecated": "PicoDeprecated's purpose is to maintain backward compatibility to older versions of Pico.",
+            "picocms/pico-theme": "Pico requires a theme to actually display the contents of your website. This is Pico's official default theme."
+        },
+        "time": "2018-07-29T11:11:21+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pico": "lib/",
+                "PicoPluginInterface": "lib/",
+                "AbstractPicoPlugin": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gilbert Pellegrom",
+                "email": "gilbert@pellegrom.me",
+                "role": "Project Founder"
+            },
+            {
+                "name": "The Pico Community",
+                "homepage": "http://picocms.org/"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/picocms/Pico/graphs/contributors"
+            }
+        ],
+        "description": "Pico is a flat file CMS, this means there is no administration backend and database to deal with. You simply create .md files in the \"content\" folder and that becomes a page.",
+        "homepage": "http://picocms.org/",
+        "keywords": [
+            "Simple",
+            "cms",
+            "content-management",
+            "flat-file",
+            "markdown",
+            "markdown-to-html",
+            "php",
+            "pico",
+            "pico-cms",
+            "picocms",
+            "twig",
+            "website",
+            "yaml"
+        ]
+    },
+    {
+        "name": "picocms/pico-deprecated",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/picocms/pico-deprecated.git",
+            "reference": "4f98ff0f1abbf887ab3eccf69420659b52b4af92"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/picocms/pico-deprecated/zipball/4f98ff0f1abbf887ab3eccf69420659b52b4af92",
+            "reference": "4f98ff0f1abbf887ab3eccf69420659b52b4af92",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "picocms/pico": "self.version"
+        },
+        "time": "2018-07-29T10:59:27+00:00",
+        "type": "pico-plugin",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "PicoDeprecated.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "The Pico Community",
+                "homepage": "http://picocms.org/"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/picocms/pico-deprecated/graphs/contributors"
+            }
+        ],
+        "description": "This is Pico's official PicoDeprecated plugin. Pico is a stupidly simple, blazing fast, flat file CMS.",
+        "homepage": "http://picocms.org/",
+        "keywords": [
+            "compatibility",
+            "deprecation",
+            "pico",
+            "pico-deprecated",
+            "picocms",
+            "picocms-plugin"
+        ]
+    },
+    {
+        "name": "picocms/pico-theme",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/picocms/pico-theme.git",
+            "reference": "e1e4cc644ff440cd78d37e87adb6ea328907d3c6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/picocms/pico-theme/zipball/e1e4cc644ff440cd78d37e87adb6ea328907d3c6",
+            "reference": "e1e4cc644ff440cd78d37e87adb6ea328907d3c6",
+            "shasum": ""
+        },
+        "require": {
+            "picocms/pico": "self.version"
+        },
+        "time": "2018-07-29T10:58:56+00:00",
+        "type": "pico-theme",
+        "extra": {
+            "installer-name": "default"
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "The Pico Community",
+                "homepage": "http://picocms.org/"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/picocms/pico-theme/graphs/contributors"
+            }
+        ],
+        "description": "This is Pico's official default theme. Pico is a stupidly simple, blazing fast, flat file CMS.",
+        "homepage": "http://picocms.org/",
+        "keywords": [
+            "default-theme",
+            "pico",
+            "pico-theme",
+            "picocms",
+            "picocms-theme"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.9.0",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+            "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2018-08-06T14:22:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.9-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            },
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "v2.8.44",
+        "version_normalized": "2.8.44.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "fbf876678e29dc634430dcf0096e216eb0004467"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/fbf876678e29dc634430dcf0096e216eb0004467",
+            "reference": "fbf876678e29dc634430dcf0096e216eb0004467",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9",
+            "symfony/polyfill-ctype": "~1.8"
+        },
+        "time": "2018-07-26T09:03:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -142,32 +440,33 @@
     },
     {
         "name": "twig/twig",
-        "version": "v1.34.4",
-        "version_normalized": "1.34.4.0",
+        "version": "v1.35.4",
+        "version_normalized": "1.35.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/twigphp/Twig.git",
-            "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee"
+            "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig/zipball/f878bab48edb66ad9c6ed626bf817f60c6c096ee",
-            "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
+            "reference": "7e081e98378a1e78c29cc9eba4aefa5d78a05d2a",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.3"
+            "php": ">=5.3.3",
+            "symfony/polyfill-ctype": "^1.8"
         },
         "require-dev": {
             "psr/container": "^1.0",
-            "symfony/debug": "~2.7",
-            "symfony/phpunit-bridge": "~3.3@dev"
+            "symfony/debug": "^2.7",
+            "symfony/phpunit-bridge": "^3.3"
         },
-        "time": "2017-07-04T13:19:31+00:00",
+        "time": "2018-07-13T07:12:17+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.34-dev"
+                "dev-master": "1.35-dev"
             }
         },
         "installation-source": "dist",
@@ -197,12 +496,12 @@
             },
             {
                 "name": "Twig Team",
-                "homepage": "http://twig.sensiolabs.org/contributors",
+                "homepage": "https://twig.symfony.com/contributors",
                 "role": "Contributors"
             }
         ],
         "description": "Twig, the flexible, fast, and secure template language for PHP",
-        "homepage": "http://twig.sensiolabs.org",
+        "homepage": "https://twig.symfony.com",
         "keywords": [
             "templating"
         ]

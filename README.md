@@ -14,3 +14,10 @@ Important directories/files:
 * `public/content/` - Content for all the pages.
 * `public/plugins/WFFunctions.php` - A custom plugin.
 * `public/themes/well-formed/` - Templates, including CSS.
+
+## Installation
+
+We installed Pico 2.0.1 by doing:
+
+    $ curl -sSL https://getcomposer.org/installer | php
+    $ php composer.phar create-project picocms/pico-composer public
