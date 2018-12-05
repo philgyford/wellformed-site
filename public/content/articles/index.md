@@ -6,6 +6,9 @@ Template: text
 
 Phil Gyford writes blog posts about web development and design on his personal website. Here are the most&nbsp;recent:
 
+* **[Search forms](https://www.gyford.com/phil/writing/2018/12/05/search-forms/)**  
+Looking at how best to create accessible site search forms, including examples from different governmental organisations. <span class="u-nowrap">(5 December 2018)</span>
+
 * **[Total Perspective Vortex in D3.js](https://www.gyford.com/phil/writing/2018/06/28/total-perspective-vortex-d3js/)**  
 An interactive D3.js toy to give you some perspective on yourself in relation to the size of other entities. <span class="u-nowrap">(28 June 2018)</span>
 
