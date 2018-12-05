@@ -4,7 +4,7 @@
 site_title: Well-Formed                    # The title of your website
 base_url: ~                         # Pico will try to guess its base URL, if this fails, override it here
                                     #     Example: http://example.com/pico/
-rewrite_url: ~                      # A boolean (true or false) indicating whether URL rewriting is forced
+rewrite_url: true                      # A boolean (true or false) indicating whether URL rewriting is forced
 timezone: UTC                       # Your PHP installation might require you to manually specify a timezone
 
 ##
