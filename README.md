@@ -26,6 +26,7 @@ We installed Pico 2.0.1 by doing:
 
 In theory you can upgrade Pico in future by doing:
 
+    $ cd public
     $ php composer.phar update
     
 (If you don't have `composer.phar`, or it's out of date, get it again using the first command under Installation, above.)
