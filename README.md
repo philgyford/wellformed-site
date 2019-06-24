@@ -15,6 +15,12 @@ Important directories/files:
 * `public/plugins/WFFunctions.php` - A custom plugin.
 * `public/themes/well-formed/` - Templates, including CSS.
 
+## Running locally
+
+In theory we've set Apache up on my laptop to run this as
+http://www.well-formed.local
+
+
 ## Installing Pico
 
 We installed Pico 2.0.1 by doing:
@@ -22,11 +28,13 @@ We installed Pico 2.0.1 by doing:
     $ curl -sSL https://getcomposer.org/installer | php
     $ php composer.phar create-project picocms/pico-composer public
 
+
 ## Upgrading Pico
 
 In theory you can upgrade Pico in future by doing:
 
     $ cd public
     $ php composer.phar update
-    
+
 (If you don't have `composer.phar`, or it's out of date, get it again using the first command under Installation, above.)
+
