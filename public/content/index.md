@@ -4,13 +4,13 @@ Description: Good web development in London
 Template: text
 ---
 
-Well-Formed makes interesting websites, which often fall into these two broad&nbsp;categories:
+Well-Formed makes interesting websites, often in these broad&nbsp;categories:
 
 * **Making data visible**  
   If you’ve got lots of data that could be more visible and usable, we can get it online in a simple, clear website that's easy to explore and&nbsp;share.
 
 * **Building prototypes**  
-  Whether you call it a prototype, an Alpha, R&D, or something else, we can help you get a first-version of your website or online service up and&nbsp;running.
+  Whether you call it a prototype, an Alpha, R&D, or something else, we can help you get a first-version of your website or service up and&nbsp;running.
 
 We like websites that are simple and fast, that are built around usability and data, and that do good things on and for the web.
 

@@ -3,7 +3,7 @@ Title: Projects
 Description: Projects by Well-Formed
 ---
 
-Some projects we’ve worked on for clients aren’t shareable in public, but here are some of our other favourites from recent years:
+Some projects we’ve worked on for clients aren’t public, but here are some of our other favourites from recent&nbsp;years:
 
 <hr>
 
@@ -17,7 +17,7 @@ Some projects we’ve worked on for clients aren’t shareable in public, but he
         <p>It combines MoMA’s data with more from Wikidata and the <cite>New York Times</cite>, and has several visualisations (using D3.js) providing overviews of the organisation and its work over the decades.</p>
     </div>
     <div>
-        <a href="http://spelunker.moma.org/">
+        <a href="https://www.moma.org/interactives/exhibitions/2016/spelunker/">
             %wf_product_img("moma-exhibitions", "Screenshot of MoMA Exhibition Spelunker", "img--bordered")%
         </a>
     </div>
@@ -71,9 +71,8 @@ Some projects we’ve worked on for clients aren’t shareable in public, but he
         <p>The branching conversational story was built using a custom admin system that allowed for adjustments as the project was developed.</p>
     </div>
     <div>
-        <a href="https://guardian.gyford.com/">
-            %wf_product_img("doal", "Screenshot of the website")%
-        </a>
+        
+        %wf_product_img("doal", "Screenshot of the website")%
     </div>
 </section>
 
