@@ -21,6 +21,16 @@ In theory we've set Apache up on my laptop to run this as
 http://www.well-formed.local
 
 
+## Running in production
+
+We don't use Composer in production.
+
+We have all the files that Composer installs on the local version added to Git.
+
+On the Webfaction server, we then just do a git pull to fetch the complete set
+of files required.
+
+
 ## Installing Pico
 
 We installed Pico 2.0.1 by doing:
