@@ -10,7 +10,26 @@ Some projects we’ve worked on for clients aren’t public, but here are some o
 <section class="grid grid--2-1">
     <div>
         <h3>
-            <a href="http://spelunker.moma.org/">MoMA Exhibition Spelunker</a>
+            <a href="https://www.good-id.org/">Good ID</a>
+        </h3>
+        <p>Working with <a href="https://www.unfoldstories.co.uk">Unfold
+        Stories</a>, this is a content-driven site focused on doing digital identity right.</p>
+
+        <p>Using Unfold's design and specification we implemented the site using the Django-based Wagtail CMS. <a href="https://www.gyford.com/phil/writing/2019/06/18/good-id/">Read more about&nbsp;it.</a></p>
+    </div>
+    <div>
+        <a href="https://www.good-id.org/">
+            %wf_product_img("goodid-home", "Screenshot of the Good ID website", "img--bordered")%
+        </a>
+    </div>
+</section>
+
+<hr>
+
+<section class="grid grid--2-1">
+    <div>
+        <h3>
+            <a href="https://www.moma.org/interactives/exhibitions/2016/spelunker/">MoMA Exhibition Spelunker</a>
         </h3>
         <p>Working with <a href="http://goodformandspectacle.com">Good, Form & Spectacle</a>, a site that explores 60 years of data for New York’s Museum of Modern Art.</p>
 
@@ -50,7 +69,7 @@ Some projects we’ve worked on for clients aren’t public, but here are some o
         </h3>
         <p>A self-directed project from 2010, building a browsable online version of a newspaper, using the <cite>Guardian</cite>’s API. <a href="https://www.gyford.com/phil/writing/2010/06/09/todays-guardian/">Read more about the design thinking</a>.</p>
 
-        <p>This was later taken further in collaboration with BERG, funded by the <cite>Guardian</cite>, to create “a newspaper that looks back at you”. <a href="http://berglondon.com/blog/2012/08/01/headliner/">Read more about it.</a></p>
+        <p>This was later taken further in collaboration with BERG, funded by the <cite>Guardian</cite>, to create “a newspaper that looks back at you”. <a href="http://berglondon.com/blog/2012/08/01/headliner/">Read more about&nbsp;it.</a></p>
     </div>
     <div>
         <a href="https://guardian.gyford.com/">
@@ -71,9 +90,7 @@ Some projects we’ve worked on for clients aren’t public, but here are some o
         <p>The branching conversational story was built using a custom admin system that allowed for adjustments as the project was developed.</p>
     </div>
     <div>
-        
         %wf_product_img("doal", "Screenshot of the website")%
     </div>
 </section>
 
-<hr>
