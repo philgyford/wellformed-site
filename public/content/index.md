@@ -20,42 +20,51 @@ If you have an interesting project we could help with, [do&nbsp;get&nbsp;in&nbsp
 
 We have previously worked with companies such as…
 
-<ul class="list--unstyled grid grid--6 grid--logos">
+<ul class="list--unstyled grid grid--5 grid--logos">
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/bbc.png" alt="BBC logo" width="200" height="58">
+        <a href="https://www.bbc.co.uk" title="BBC"><img class="company-logo img--fluid" src="/assets/img/logos/bbc.png" alt="BBC logo" width="200" height="58"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/google.png" alt="Google logo" width="200" height="67">
+        <a href="https://google.com" title="Google"><img class="company-logo img--fluid" src="/assets/img/logos/google.png" alt="Google logo" width="200" height="67"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/citizens-advice.png" alt="Citizens Advice logo" width="200" height="213">
+        <a href="https://www.citizensadvice.org.uk" title="Citizens Advice"><img class="company-logo img--fluid" src="/assets/img/logos/citizens-advice.png" alt="Citizens Advice logo" width="200" height="213"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/berg.png" alt="BERG logo" width="200" height="80">
+        <a href="http://berglondon.com" title="BERG"><img class="company-logo img--fluid" src="/assets/img/logos/berg.png" alt="BERG logo" width="200" height="80"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/storythings.png" alt="Storythings logo" title="Storythings" width="200" height="200">
+        <a href="https://www.moma.org" title="MoMA (Museum of Modern Art, New York)"><img class="company-logo img--fluid" src="/assets/img/logos/moma.png" alt="MoMA logo" width="200" height="51"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/clearleft.png" alt="Clearleft logo" width="200" height="66">
+        <a href="https://clearleft.com" title="Clearleft"><img class="company-logo img--fluid" src="/assets/img/logos/clearleft.png" alt="Clearleft logo" width="200" height="66"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/doteveryone.png" alt="Doteveryone logo" width="200" height="37">
+        <a href="https://www.storythings.com" title="Storythings"><img class="company-logo img--fluid" src="/assets/img/logos/storythings.png" alt="Storythings logo" width="200" height="200"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/gfands.png" alt="Good, Form & Spectacle logo" title="Good, Form & Spectacle" width="200" height="141">
+        <a href="https://doteveryone.org.uk" title="Doteveryone"><img class="company-logo img--fluid" src="/assets/img/logos/doteveryone.png" alt="Doteveryone logo" width="200" height="37"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/caribou-digital.png" alt="Caribou Digital logo" width="200" height="77">
+        <a href="https://www.unfoldstories.co.uk" title="Unfold Stories"><img class="company-logo img--fluid" src="/assets/img/logos/unfold-stories.png" alt="Unfold Stories logo" width="200" height="84"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/museum-in-a-box.png" alt="Museum in a Box logo" title="Museum in a Box" width="200" height="200">
+        <a href="https://www.cariboudigital.net" title="Caribou Digital"><img class="company-logo img--fluid" src="/assets/img/logos/caribou-digital.png" alt="Caribou Digital logo" width="200" height="77"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/hactar.png" alt="Hactar logo" width="200" height="50">
+        <a href="https://www.somersethouse.org.uk" title="Somerset House"><img class="company-logo img--fluid" src="/assets/img/logos/somerset-house.png" alt="Somerset House logo" width="200" height="200"></a>
     </li>
     <li>
-        <img class="company-logo img--fluid" src="/assets/img/logos/caper.png" alt="Caper logo" width="200" height="84">
+        <a href="http://hactar.is" title="Hactar"><img class="company-logo img--fluid" src="/assets/img/logos/hactar.png" alt="Hactar logo" width="200" height="50"></a>
+    </li>
+    <li>
+        <a href="https://worldskills.org" title="WorldSkills"><img class="company-logo img--fluid" src="/assets/img/logos/worldskills.png" alt="WorldSkills logo" width="200" height="117"></a>
+    </li>
+    <li>
+        <a href="http://goodformandspectacle.com" title="Good, Form & Spectacle"><img class="company-logo img--fluid" src="/assets/img/logos/gfands.png" alt="Good, Form & Spectacle logo" width="200" height="141"></a>
+    </li>
+    <li>
+        <a href="http://www.museuminabox.org" title="Museum in a Box"><img class="company-logo img--fluid" src="/assets/img/logos/museum-in-a-box.png" alt="Museum in a Box logo" width="200" height="200"></a>
     </li>
 </ul>
 
