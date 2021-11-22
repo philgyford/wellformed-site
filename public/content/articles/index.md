@@ -6,6 +6,9 @@ Template: text
 
 Phil Gyford writes blog posts about web development and design on his personal website. Here are the most&nbsp;recent:
 
+* **[Removing Exif data from images in Django](https://www.gyford.com/phil/writing/2021/10/05/removing-exif-images-django/)**  
+Ways to remove data from uploaded images that might give away a user’s location. <span class="u-nowrap">(5 October 2021)</span>
+
 * **[Search forms](https://www.gyford.com/phil/writing/2018/12/05/search-forms/)**  
 Looking at how best to create accessible site search forms, including examples from different governmental organisations. <span class="u-nowrap">(5 December 2018)</span>
 
