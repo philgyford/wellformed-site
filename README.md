@@ -27,7 +27,7 @@ We don't use Composer in production.
 
 We have all the files that Composer installs on the local version added to Git.
 
-On the Webfaction server, we then just do a git pull to fetch the complete set
+On the Mythic Beasts server, we then just do a git pull to fetch the complete set
 of files required.
 
 
