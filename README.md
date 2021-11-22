@@ -18,7 +18,7 @@ Important directories/files:
 ## Running locally
 
 In theory we've set Apache up on my laptop to run this as
-http://www.well-formed.local
+http://www.well-formed.test
 
 
 ## Running in production
@@ -47,4 +47,3 @@ In theory you can upgrade Pico in future by doing:
     $ php composer.phar update
 
 (If you don't have `composer.phar`, or it's out of date, get it again using the first command under Installation, above.)
-
