@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine On
+    #RewriteEngine On
     # May be required to access sub directories
     #RewriteBase /
 
@@ -7,20 +7,6 @@
     RewriteEngine On
     RewriteCond %{HTTP_HOST} ^well-formed.co.uk$ [NC]
     RewriteRule ^(.*)$ https://www.well-formed.co.uk/$1 [R=301,L]
-
-    # Deny access to internal dirs and files by passing the URL to Pico
-    RewriteRule ^(config|content|vendor|CHANGELOG\.md|composer\.(json|lock|phar))(/|$) index.php [L]
-    RewriteRule (^\.|/\.)(?!well-known(/|$)) index.php [L]
-
-    # Enable URL rewriting
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^ index.php [L]
-
-    <IfModule mod_env.c>
-        # Let Pico know about available URL rewriting
-        SetEnv PICO_URL_REWRITING 1
-    </IfModule>
 </IfModule>
 
 # Prevent file browsing
