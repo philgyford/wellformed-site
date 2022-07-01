@@ -2,8 +2,6 @@
 
 The code for https://www.well-formed.co.uk
 
-All in git, not currently on GitHub. Files are manually copied to the website using FTP.
-
 The `public/` directory should be used for the website.
 
 ## Running locally
