@@ -9,7 +9,7 @@ include "includes/page_start.php";
 	<ul>
 		<li>
 			<p><strong>Developing online art</strong><br />
-			We’ve made intriguing artistic experiences that are at home on the web, rather than in a gallery, such as <a href="/projects/#beacon-black">beacon.black</a> and <a href="/projects/#dreams">Dreams of a Life</a>.</p>
+			We’ve made intriguing artistic experiences that are at home on the web, rather than in a gallery, such as <a href="/projects/#beaconblack">beacon.black</a> and <a href="/projects/#dreams">Dreams of a Life</a>.</p>
 		</li>
 		<li>
 			<p><strong>Making data visible</strong><br />

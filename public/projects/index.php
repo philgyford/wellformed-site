@@ -13,7 +13,7 @@ include "../includes/page_start.php";
 
 <hr>
 
-<section class="grid grid--2-1" id="spelunker">
+<section class="grid grid--2-1" id="beaconblack">
 	<div>
 		<h3>
 			<a href="https://beacon.black">beacon.black</a>
