@@ -8,30 +8,31 @@ include "../includes/page_start.php";
 	<h1 class="pagehead__title">Projects</h1>
 </header>
 
-<p>Some projects we’ve worked on for clients aren’t public, but here are some of our other favourites from recent&nbsp;years:</p>
+<p>Some projects we’ve worked on for clients aren’t public, but here are some of our other&nbsp;favourites:</p>
+
 
 <hr>
 
-<section class="grid grid--2-1">
+<section class="grid grid--2-1" id="spelunker">
 	<div>
 		<h3>
-			<a href="https://www.good-id.org/">Good ID</a>
+			<a href="https://beacon.black">beacon.black</a>
 		</h3>
-		<p>Working with <a href="https://www.unfoldstories.co.uk">Unfold
-		Stories</a>, this is a content-driven site focused on doing digital identity right.</p>
+		<p>As part of an <a href="http://www.artangel.org.uk">Artangel</a> project, a collaboration with an artist, designers and a photographer.</p>
 
-		<p>Using Unfold's design and specification we implemented the site using the Django-based Wagtail CMS. <a href="https://www.gyford.com/phil/writing/2019/06/18/good-id/">Read more about&nbsp;it.</a></p>
+		<p>Audio streams of field recordings and an ambient soundscape are combined with photographs of the area and video of local wildlife, in a lightweight, happily low-tech experience. <a href="https://www.gyford.com/phil/writing/2021/08/09/beacon-black/">Read more about&nbsp;it.</a></p>
 	</div>
 	<div>
-		<a href="https://www.good-id.org/">
-			<?php project_image("goodid-home", "Screenshot of the Good ID website", "img--bordered"); ?>
+		<a href="https://beacon.blacK">
+			<?php project_image("beaconblack", "Screenshot of beacon.black", "img--bordered"); ?>
 		</a>
 	</div>
 </section>
 
+
 <hr>
 
-<section class="grid grid--2-1">
+<section class="grid grid--2-1" id="spelunker">
 	<div>
 		<h3>
 			<a href="https://www.moma.org/interactives/exhibitions/2016/spelunker/">MoMA Exhibition Spelunker</a>
@@ -49,7 +50,7 @@ include "../includes/page_start.php";
 
 <hr>
 
-<section class="grid grid--2-1">
+<section class="grid grid--2-1" id="waddesdon">
 	<div>
 		<h3>
 			<a href="http://wb.britishmuseum.org/">The Waddesdon Bequest</a>
@@ -67,7 +68,26 @@ include "../includes/page_start.php";
 
 <hr>
 
-<section class="grid grid--2-1">
+<section class="grid grid--2-1" id="good-id">
+	<div>
+		<h3>
+			<a href="https://web.archive.org/web/20220213104732/https://www.good-id.org/en/">Good ID</a> <small>(Internet Archive version)</small>
+		</h3>
+		<p>Working with <a href="https://www.unfoldstories.co.uk">Unfold
+		Stories</a>, this was a content-driven site focused on doing digital identity right.</p>
+
+		<p>Using Unfold's design and specification we implemented the site using the Django-based Wagtail CMS. <a href="https://www.gyford.com/phil/writing/2019/06/18/good-id/">Read more about&nbsp;it.</a></p>
+	</div>
+	<div>
+		<a href="https://web.archive.org/web/20220213104732/https://www.good-id.org/en/">
+			<?php project_image("goodid-home", "Screenshot of the Good ID website", "img--bordered"); ?>
+		</a>
+	</div>
+</section>
+
+<hr>
+
+<section class="grid grid--2-1" id="guardian">
 	<div>
 		<h3>
 			<a href="https://guardian.gyford.com/">Today’s Guardian</a>
@@ -85,14 +105,14 @@ include "../includes/page_start.php";
 
 <hr>
 
-<section class="grid grid--2-1">
+<section class="grid grid--2-1" id="dreams">
 	<div>
 		<h3>
 			Dreams of Your Life
 		</h3>
 		<p>A thoughtful narrative experience promoting a film, <cite>Dreams of a Life</cite>, built with Hide&Seek for Film 4, written by A.L. Kennedy, with photography by Lottie Davies.</p>
 
-		<p>The branching conversational story was built using a custom admin system that allowed for adjustments as the project was developed.</p>
+		<p>The branching conversational story was built using a custom admin system that allowed for adjustments as the project was developed. Created before Well-Formed’s existence, but still one of our favourite&nbsp;works.</p>
 	</div>
 	<div>
 		<?php project_image("doal", "Screenshot of the website", "img--bordered"); ?>
