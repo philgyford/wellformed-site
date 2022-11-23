@@ -10,6 +10,21 @@ include "../includes/page_start.php";
 
 <p>Some projects we’ve worked on for clients aren’t public, but here are some of our other&nbsp;favourites:</p>
 
+<hr>
+
+<section class="grid grid--2-1" id="oohdirectory">
+	<div>
+		<h3>
+			<a href="https://ooh.directory">ooh.directory</a>
+		</h3>
+		<p>An in-house project to create a collection of blogs to help people find good blogs that interest them.</p>
+	</div>
+	<div>
+		<a href="https://ooh.directory">
+			<?php project_image("oohdirectory", "Screenshot of ooh.directory", "img--bordered"); ?>
+		</a>
+	</div>
+</section>
 
 <hr>
 
@@ -23,7 +38,7 @@ include "../includes/page_start.php";
 		<p>Audio streams of field recordings and an ambient soundscape are combined with photographs of the area and video of local wildlife, in a lightweight, happily low-tech experience. <a href="https://www.gyford.com/phil/writing/2021/08/09/beacon-black/">Read more about&nbsp;it.</a></p>
 	</div>
 	<div>
-		<a href="https://beacon.blacK">
+		<a href="https://beacon.black">
 			<?php project_image("beaconblack", "Screenshot of beacon.black", "img--bordered"); ?>
 		</a>
 	</div>
