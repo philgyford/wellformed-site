@@ -12,5 +12,10 @@ http://www.well-formed.test
 
 ## Running in production
 
+Despite the below, the site on lynx isn't a git repository, so we're just SFTPing
+updates to the site.
+
+
+
 On the Mythic Beasts server, we then just do a git pull to fetch the complete set
 of files required.
